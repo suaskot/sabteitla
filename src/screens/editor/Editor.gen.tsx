@@ -3,13 +3,13 @@
 /* eslint-disable */
 /* tslint:disable */
 
-import * as EditorJS from './Editor.res.mjs';
+import * as EditorJS from './Editor.res.js';
 
 import type {style as Style_style} from './Style.gen';
 
 import type {subtitlesManager as ChunksList_subtitlesManager} from '../../../src/screens/editor/ChunksList/ChunksList.gen';
 
-import type {t as Core__Promise_t} from '@rescript/core/src/Core__Promise.gen';
+import type {t as Core__Promise_t} from './Core__Promise.gen';
 
 export type props<subtitlesManager,render,rendererPreviewCanvasRef,videoFileName> = {
   readonly subtitlesManager: subtitlesManager; 

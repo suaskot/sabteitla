@@ -8,7 +8,7 @@ import { SubtitlesStrikethrough } from "../ui/SubtitlesStrikethrough";
 import { isFocusable } from "../bindings/Web.gen";
 import { ExclamationTriangleIcon } from "@heroicons/react/20/solid";
 import { ALL_MODELS, MODELS, Model } from "../transcriber/Constants";
-import { ProductHuntIcon } from "../ui/Icons.res.mjs";
+import { ProductHuntIcon } from "../ui/Icons.res.js";
 
 type LandingDropzoneProps = {
   language: string;

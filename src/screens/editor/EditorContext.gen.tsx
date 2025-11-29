@@ -3,7 +3,7 @@
 /* eslint-disable */
 /* tslint:disable */
 
-import * as EditorContextJS from './EditorContext.res.mjs';
+import * as EditorContextJS from './EditorContext.res.js';
 
 import type {AudioBuffer_t as WebAudio_AudioBuffer_t} from '../../../src/bindings/WebAudio.gen';
 

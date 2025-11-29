@@ -2,8 +2,8 @@
 
 import * as Caml from "rescript/lib/es6/caml.js";
 import * as React from "react";
-import * as EditorContext from "../screens/editor/EditorContext.res.mjs";
-import * as UseDimensions from "./useDimensions.res.mjs";
+import * as EditorContext from "../screens/editor/EditorContext.res.js";
+import * as UseDimensions from "./useDimensions.res.js";
 
 function sizeToStyle(param) {
   return {

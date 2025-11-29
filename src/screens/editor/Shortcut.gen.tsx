@@ -3,7 +3,7 @@
 /* eslint-disable */
 /* tslint:disable */
 
-import * as ShortcutJS from './Shortcut.res.mjs';
+import * as ShortcutJS from './Shortcut.res.js';
 
 export type modifier = "Shift" | "Meta" | "Ctrl" | "NoModifier";
 

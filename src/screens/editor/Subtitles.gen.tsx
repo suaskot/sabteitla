@@ -3,7 +3,7 @@
 /* eslint-disable */
 /* tslint:disable */
 
-import * as SubtitlesJS from './Subtitles.res.mjs';
+import * as SubtitlesJS from './Subtitles.res.js';
 
 export type timestamp = [number, (null | undefined | number)];
 

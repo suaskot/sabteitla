@@ -3,7 +3,7 @@
 /* eslint-disable */
 /* tslint:disable */
 
-import * as DockJS from './Dock.res.mjs';
+import * as DockJS from './Dock.res.js';
 
 import type {action as Shortcut_action} from './Shortcut.gen';
 

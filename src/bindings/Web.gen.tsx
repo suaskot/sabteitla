@@ -3,7 +3,7 @@
 /* eslint-disable */
 /* tslint:disable */
 
-import * as WebJS from './Web.res.mjs';
+import * as WebJS from './Web.res.js';
 
 import type {Dom_Element_t as Webapi_Dom_Element_t} from 'rescript-webapi/src/Webapi.gen';
 

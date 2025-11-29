@@ -20,7 +20,7 @@ import clsx from "clsx";
 import { ShowErrorContext, UserFacingError } from "./ErrorBoundary";
 import { log } from "./hooks/useAnalytics";
 import HeartIcon from "@heroicons/react/20/solid/HeartIcon";
-import { ProductHuntIcon } from "./ui/Icons.res.mjs";
+import { ProductHuntIcon } from "./ui/Icons.res.js";
 
 type VideoFile = {
   name: string;

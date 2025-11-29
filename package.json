@@ -6,8 +6,8 @@
   "scripts": {
     "res:build": "rescript",
     "res:clean": "rescript clean",
-    "dev": "concurrently -r 'rescript -w'  'vite --host 0.0.0.0'",
-    "test": "retest tests/*.mjs",
+    "dev": "concurrently -r \"rescript -w\" \"vite --host 0.0.0.0\"",
+    "test": "retest tests/*.res.js",
     "build": "yarn res:build && vite build",
     "vercel:build": "yarn res:clean && yarn res:build && tsc && vite build",
     "preview": "vite preview",

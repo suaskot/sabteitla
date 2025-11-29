@@ -7,7 +7,7 @@ import * as Js_string from "rescript/lib/es6/js_string.js";
 import * as Belt_Array from "rescript/lib/es6/belt_Array.js";
 import * as Caml_int32 from "rescript/lib/es6/caml_int32.js";
 import * as Caml_option from "rescript/lib/es6/caml_option.js";
-import * as Core__Float from "@rescript/core/src/Core__Float.res.mjs";
+import * as Core__Float from "@rescript/core/src/Core__Float.res.js";
 import * as PervasivesU from "rescript/lib/es6/pervasivesU.js";
 
 function last(arr) {

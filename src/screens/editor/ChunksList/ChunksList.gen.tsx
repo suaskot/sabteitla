@@ -3,7 +3,7 @@
 /* eslint-disable */
 /* tslint:disable */
 
-import * as ChunksListJS from './ChunksList.res.mjs';
+import * as ChunksListJS from './ChunksList.res.js';
 
 import type {subtitleCue as Subtitles_subtitleCue} from '../../../../src/screens/editor/Subtitles.gen';
 

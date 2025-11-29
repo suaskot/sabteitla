@@ -13,7 +13,7 @@
       "in-source": true
     }
   ],
-  "suffix": ".res.mjs",
+  "suffix": ".res.js",
   "bs-dependencies": [
     "@rescript/core",
     "@rescript/react",

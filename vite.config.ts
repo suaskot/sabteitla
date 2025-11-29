@@ -6,7 +6,7 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [
     react({
-      include: ["**/*.res.mjs", "**/*.tsx", "**/*.ts"],
+      include: ["**/*.res.js", "**/*.tsx", "**/*.ts"],
       babel: {
         //plugins: [["babel-plugin-react-compiler", ReactCompilerConfig]],
       },

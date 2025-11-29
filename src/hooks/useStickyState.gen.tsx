@@ -3,7 +3,7 @@
 /* eslint-disable */
 /* tslint:disable */
 
-import * as useStickyStateJS from './useStickyState.res.mjs';
+import * as useStickyStateJS from './useStickyState.res.js';
 
 export type serde<a> = { readonly parse: (_1:string) => a; readonly serialize: (_1:a) => string };
 

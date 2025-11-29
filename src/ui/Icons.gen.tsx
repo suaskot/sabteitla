@@ -3,7 +3,7 @@
 /* eslint-disable */
 /* tslint:disable */
 
-import * as IconsJS from './Icons.res.mjs';
+import * as IconsJS from './Icons.res.js';
 
 import type {JsxDOM_style as PervasivesU_JsxDOM_style} from './PervasivesU.gen';
 
